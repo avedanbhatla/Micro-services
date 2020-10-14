@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.lzb.camel</groupId>
-	<artifactId>camelDAO</artifactId>
+	<artifactId>camel</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>camel</name>
 	<description>camel Service</description>
