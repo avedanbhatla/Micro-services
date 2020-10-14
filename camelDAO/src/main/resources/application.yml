@@ -1,0 +1,18 @@
+server:
+  port: 9099
+camel:
+  springboot:
+    name: ServicesRest
+
+lzb:
+  api:
+    path: '/camel'
+  
+route:
+  from:
+    ws1: http://localhost:9092/employees?bridgeEndpoint=true
+    ws2: http4://localhost:9094/employeeBenefits?bridgeEndpoint=true
+
+  to:
+    path: file:C:/test/?fileName=test.csv
+    path1: file:C:/test/?fileName=test.txt

@@ -1,0 +1,26 @@
+server:
+  port: 9097
+camel:
+  springboot:
+    name: ServicesRest
+
+lzb:
+  api:
+    path: '/camel'
+  
+route:
+  from:
+    path: http://localhost:9092/employees
+
+  to:
+    path: file:C:/test/?fileName=test.csv
+    path1: file:C:/test/?fileName=test.txt
+    
+  url:
+    equifax: http://localhost:9099/camel/employeenew/
+    
+  bean:
+    vendorbean:
+      equifax: com.lzb.hr.beans.vendorbeans.Equifax.class
+    vendorbeanlist:
+      equifax: com.lzb.hr.beans.vendorbeanlist.EquifaxList.class
