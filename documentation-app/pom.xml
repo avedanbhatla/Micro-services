@@ -83,6 +83,10 @@
                 <configuration>
                     <to>
                             <image>avedanbhatla/lzbrepo:eurekadiscovery</image>
+							<auth>
+      <username>avedanbhatla</username>
+      <password>dockerlzb</password>
+    </auth>
                     </to>
                 </configuration>
             </plugin>
