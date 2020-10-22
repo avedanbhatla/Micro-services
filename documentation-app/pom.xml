@@ -82,10 +82,10 @@
                 <version>2.5.0</version>
                 <configuration>
                     <to>
-                            <image>avedanbhatla/lzbrepo:eurekadiscovery</image>
+                            <image>avedanbhatla/lzbrepo:documentation</image>
 							<auth>
       <username>avedanbhatla</username>
-      <password>dockerlzb</password>
+      <password>lzbrepo</password>
     </auth>
                     </to>
                 </configuration>
