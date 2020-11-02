@@ -10,7 +10,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://ec2-3-82-233-138.compute-1.amazonaws.com:9092/eureka/
       
 swagger: 
   config: 

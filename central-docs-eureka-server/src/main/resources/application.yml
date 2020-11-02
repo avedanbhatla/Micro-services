@@ -2,7 +2,7 @@ spring:
   application:
     name: central-doc-eureka-server
 server:
-  port: 8761
+  port: 9092
 logging:
   level:
     com.netflix.eureka: false
