@@ -1,5 +1,5 @@
 server:
-  port: 9092
+  port: 9094
  
 spring:
   application:
@@ -13,7 +13,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://http://ec2-3-84-23-160.compute-1.amazonaws.com:9092/eureka/
       
 
 
